@@ -61,3 +61,10 @@ And finally, the last Wilson algorithm is difficult to implement, unlike previou
 | reduction of generation efficiency   | high memory requirements       | 
 
 Summing up, I would like to highlight the following conclusions that all the presented algorithms clearly show the various possibilities of constructing mazes.
+
+## Description of the wave algorithm operation
+The wave algorithm is an algorithm that allows you to find the minimum path in a graph. The breadth-first search algorithm is at the heart of this method. Basically, the wave algorithm is used to find the shortest path in the graph, in general, it finds only its length.
+
+The purpose of the wave algorithm (like most other algorithms) is the task of laying or finding a path on the map between the starting and ending point (cell).
+
+The description of the wave algorithm can be read in more detail at this link: http://orionxl.ru/volnovoj-algoritm.html
