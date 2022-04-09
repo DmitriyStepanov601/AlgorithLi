@@ -20,6 +20,12 @@ Received information: displaying the minimum path in a random maze in console mo
 ## Description of the program
 In this project, the minimum route is selected by applying the Lie algorithm (wave algorithm). At the beginning of the work, the program outputs a table (regular grid) with the size read from the file, where 99 is the designation of an obstacle, and -1 is a free cell. Next, the algorithm suggests entering the coordinates of the start and end points (from 1 to 13 in x and y for this example). After the input, the program outputs a table to the console, in which zeros show the path from the start to the end point. And at the end, the coordinates of the points of the route connecting the beginning and the end.
 
+![cursach](https://user-images.githubusercontent.com/61186198/162578079-ffad3a5e-0112-4f96-9aae-86ba3a5e6866.gif)
+
+The found shortest path is marked with zeros.
+
+![cursach2](https://user-images.githubusercontent.com/61186198/162578127-d780d515-af53-4069-a473-052547614450.gif)
+
 The main methods in the program:
 - WaveAlg method – building a wave algorithm
 - block method – filling the map with obstacles
