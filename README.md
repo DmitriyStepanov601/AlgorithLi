@@ -1,4 +1,3 @@
-# Theoretical aspects
 ## Description of the wave algorithm operation
 The wave algorithm is an algorithm that allows you to find the minimum path in a graph. The breadth-first search algorithm is at the heart of this method. Basically, the wave algorithm is used to find the shortest path in the graph, in general, it finds only its length.
 The purpose of the wave algorithm (like most other algorithms) is the task of laying or finding a path on the map between the starting and ending point (cell).
@@ -16,7 +15,6 @@ For the interaction of the program and the user, the implementation of the follo
 Primary information: random maze with voids and obstacles.
 Received information: displaying the minimum path in a random maze in console mode.
 
-# Practical implementation
 ## Description of the program
 In this project, the minimum route is selected by applying the Lie algorithm (wave algorithm). At the beginning of the work, the program outputs a table (regular grid) with the size read from the file, where 99 is the designation of an obstacle, and -1 is a free cell. Next, the algorithm suggests entering the coordinates of the start and end points (from 1 to 13 in x and y for this example). After the input, the program outputs a table to the console, in which zeros show the path from the start to the end point. And at the end, the coordinates of the points of the route connecting the beginning and the end.
 
